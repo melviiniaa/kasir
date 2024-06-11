@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+    font-family: Calibri;
+}
+ul{
+    list-style: none;
+    background:pink;
+    padding: 0 20px;
+    display: inline-table;
+    width: 100%;
+    font-family: Berlin Sans FB;
+}
+ul li{
+    float: left;
+}
+ul li:hover{
+        background:white;
+    }
+ul li:hover a{
+        color:black;
+        background:lightblue;
+    }
+ul li a{
+        display: block;
+        padding: 25px;
+        text-decoration: none;
+}
+th{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+    background-color: cyan;
+}
+table, td{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+}
